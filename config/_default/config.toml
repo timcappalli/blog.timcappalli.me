@@ -3,6 +3,7 @@ baseurl = "https://notes.timcappalli.me"
 languageCode = "en-us"
 paginate = 5
 title = "Tim's (Hot) Takes"
+copyright= "Tim Cappalli"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
