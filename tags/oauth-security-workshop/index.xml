@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OAuth Security Workshop on Tim's (Hot) Takes</title><link>https://notes.timcappalli.me/tags/oauth-security-workshop/</link><description>Recent content in OAuth Security Workshop on Tim's (Hot) Takes</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Tim Cappalli</copyright><lastBuildDate>Thu, 11 Apr 2024 12:00:00 +0000</lastBuildDate><atom:link href="https://notes.timcappalli.me/tags/oauth-security-workshop/index.xml" rel="self" type="application/rss+xml"/><item><title>OSW24 - FedCM 101</title><link>https://notes.timcappalli.me/p/preso-osw24-fedcm101/</link><pubDate>Thu, 11 Apr 2024 12:00:00 +0000</pubDate><guid>https://notes.timcappalli.me/p/preso-osw24-fedcm101/</guid><description>&lt;img src="https://notes.timcappalli.me/p/preso-osw24-fedcm101/preso-osw24-fedcm101.jpg" alt="Featured image of post OSW24 - FedCM 101" />&lt;p>&lt;a class="link" href="https://code.sgo.to/" target="_blank" rel="noopener"
+>Sam Goto&lt;/a> (Google Chrome) and I gave a deep dive session on the Federated Credential Management API, commonly called FedCM, at the &lt;a class="link" href="https://oauth.secworkshop.events/osw2024" target="_blank" rel="noopener"
+>OAuth Security Workshop&lt;/a> in Rome.&lt;/p>
+&lt;blockquote>
+&lt;p>Topics:&lt;/p>
+&lt;ul>
+&lt;li>State of the ecosystem&lt;/li>
+&lt;li>Related solutions&lt;/li>
+&lt;li>What is FedCM?&lt;/li>
+&lt;li>How does it work?&lt;/li>
+&lt;li>Demo&lt;/li>
+&lt;li>Status&lt;/li>
+&lt;li>What&amp;rsquo;s next?&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;div class="gallery">
+&lt;figure class="image" >
+&lt;a href="OSW24-FedCM101.pdf" target="_blank" type="application/pdf">
+&lt;img src="preso-osw24-fedcm101-slideprev.jpg" loading="lazy" alt="preview of presentation">
+&lt;/a>
+&lt;/figure>
+&lt;/div></description></item></channel></rss>
