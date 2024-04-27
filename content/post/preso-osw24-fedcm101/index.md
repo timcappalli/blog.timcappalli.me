@@ -1,5 +1,5 @@
 ---
-title: OSW24 - FedCM 101
+title: FedCM 101 @ OSW24
 description: FedCM 101 presentation at the OAuth Security Workshop 2024
 slug: preso-osw24-fedcm101
 draft: false

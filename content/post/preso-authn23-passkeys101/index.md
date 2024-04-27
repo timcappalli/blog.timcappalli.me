@@ -1,5 +1,5 @@
 ---
-title: Authenticate 2023 - Passkeys 101
+title: Passkeys 101 @ Authenticate 2023
 description: a session at Authenticate 2023 on the basics of passkeys, phishing resistance, some history, and a look at the future
 slug: preso-authn23-passkeys101
 draft: false
@@ -15,6 +15,7 @@ tags:
     - WebAuthn
     - FIDO
     - Web Platform
+    - Authenticate
     - Slides
     - Recordings
 keywords: 
@@ -27,7 +28,8 @@ keywords:
     - passwordless
     - phishing resistance
     - phishing resistant
-    - 
+    - authenticate
+    - authenticate conference
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
