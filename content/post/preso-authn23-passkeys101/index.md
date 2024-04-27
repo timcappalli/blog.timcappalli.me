@@ -31,8 +31,6 @@ keywords:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-[Sam Goto](https://code.sgo.to/) (Google Chrome) and I gave a deep dive session on the Federated Credential Management API, commonly called FedCM, at the [OAuth Security Workshop](https://oauth.secworkshop.events/osw2024) in Rome.
-
 ## Topics
 
 > - The phishing problem
