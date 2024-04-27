@@ -7,26 +7,47 @@
 #icon = "home"
 #newtab = true
 
-# [[social]]
-# identifier = "github"
-# name = "GitHub"
-# url = "https://github.com/timcappalli"
-# 
-# [social.params]
-# icon = "brand-github"
-# 
-# [[social]]
-# identifier = "mastodon"
-# name = "Mastodon"
-# url = "https://infosec.exchange/@timcappalli"
-# 
-# [social.params]
-# icon = "brand-github"
-# 
-# [[social]]
-# identifier = "threads"
-# name = "Threads"
-# url = "https://threads.net/@timcappalli"
-# 
-# [social.params]
-# icon = "brand-github"
+[[social]]
+identifier = "landing"
+name = "Landing Page"
+url = "https://timcappalli.me"
+weight = 10
+
+[social.params]
+icon = "info-circle"
+
+[[social]]
+identifier = "linkedin"
+name = "LinkedIn"
+url = "https://linkedin.com/in/timcappalli"
+weight = 20
+
+[social.params]
+icon = "brand-linkedin"
+
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/timcappalli"
+weight = 30
+
+[social.params]
+icon = "brand-github"
+
+[[social]]
+identifier = "mastodon"
+name = "Mastodon"
+url = "https://infosec.exchange/@timcappalli"
+weight = 40
+
+[social.params]
+icon = "brand-mastodon"
+
+[[social]]
+identifier = "threads"
+name = "Threads"
+url = "https://threads.net/@timcappalli"
+weight = 50
+
+[social.params]
+icon = "brand-threads"
