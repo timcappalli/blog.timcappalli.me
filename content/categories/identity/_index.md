@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Identity
+description: Topics about digital identity
 image:
 
 # Badge style

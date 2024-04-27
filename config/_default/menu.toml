@@ -10,15 +10,23 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/timcappalli"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "mastodon"
+name = "Mastodon"
+url = "https://infosec.exchange/@timcappalli"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-github"
+
+[[social]]
+identifier = "threads"
+name = "Threads"
+url = "https://threads.net/@timcappalli"
+
+[social.params]
+icon = "brand-github"
