@@ -75,8 +75,8 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = false
-provider = "disqus"
+enabled = true
+provider = "giscus"
 
 [comments.disqusjs]
 shortname = ""
@@ -87,7 +87,7 @@ adminLabel = ""
 
 [comments.utterances]
 repo = ""
-issueTerm = "pathname"
+issueTerm = ""
 label = ""
 
 [comments.remark42]
@@ -127,15 +127,16 @@ serverName = "cactus.chat"
 siteName = ""
 
 [comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
+repo = "timcappalli/blog.timcappalli.me"
+repoID = "R_kgDOLz3RiA"
+category = "General"
+categoryID = "DIC_kwDOLz3RiM4CfDe_"
+mapping = "pathname"
 lightTheme = ""
 darkTheme = ""
-reactionsEnabled = 1
+reactionsEnabled = 0
 emitMetadata = 0
+loading = "lazy"
 
 [comments.gitalk]
 owner = ""
