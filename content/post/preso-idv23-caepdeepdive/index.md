@@ -1,6 +1,6 @@
 ---
 title: "CAEP Deep Dive: Implementing Session Revocation and Authorization @ Identiverse 2023"
-description: a session at Identiverse 2020 on network authentication and identity in the zero trust networking era
+description: a session at Identiverse 2023 on using the Continous Access Evaluation Profile with the Shared Signals Framework to signal across different vendor ecosystems changes in session context
 slug: preso-idv23-caepdeepdive
 draft: false
 date: 2023-06-01T12:00:00.000Z
