@@ -5,7 +5,6 @@ slug: preso-nistmdl24-dcapi
 draft: false
 date: 2024-06-12T19:00:00.000Z
 readingTime: false
-license: false
 toc: false
 # image: 
 categories:
@@ -16,6 +15,7 @@ tags:
     - OpenID4VP
     - Verifiable Credentials
     - Web Platform
+    - Digital Credentials
 keywords: 
     - verifiable credentials
     - mdoc
@@ -42,4 +42,4 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 ## Recording
 
-> Coming Soon
+> Available via [nccoe.nist.gov](https://www.nccoe.nist.gov/get-involved/attend-events/nccoe-mobile-drivers-license-mdl-webinar-digital-identities/post-webinar-materials)
