@@ -26,8 +26,8 @@ math = false
 readingTime = true
 
 [article.license]
-enabled = false
-default = "Licensed under CC BY-NC-SA 4.0"
+enabled = true
+default = "Licensed under CC BY-NC-ND 4.0"
 
 ## Widgets
 [[widgets.homepage]]
@@ -71,60 +71,12 @@ default = "auto"
 enabled = true
 
 [imageProcessing.content]
-enabled = true
+enabled = false
 
 ## Comments
 [comments]
 enabled = true
 provider = "giscus"
-
-[comments.disqusjs]
-shortname = ""
-apiUrl = ""
-apiKey = ""
-admin = ""
-adminLabel = ""
-
-[comments.utterances]
-repo = ""
-issueTerm = ""
-label = ""
-
-[comments.remark42]
-host = ""
-site = ""
-locale = ""
-
-[comments.vssue]
-platform = ""
-owner = ""
-repo = ""
-clientId = ""
-clientSecret = ""
-autoCreateIssue = false
-
-[comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
-avatar = ""
-emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
-placeholder = ""
-
-[comments.waline.locale]
-admin = "Admin"
-
-[comments.twikoo]
-envId = ""
-region = ""
-path = ""
-lang = ""
-
-[comments.cactus]
-defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
-serverName = "cactus.chat"
-siteName = ""
 
 [comments.giscus]
 repo = "timcappalli/blog.timcappalli.me"
@@ -137,14 +89,3 @@ darkTheme = ""
 reactionsEnabled = 0
 emitMetadata = 0
 loading = "lazy"
-
-[comments.gitalk]
-owner = ""
-admin = ""
-repo = ""
-clientID = ""
-clientSecret = ""
-
-[comments.cusdis]
-host = ""
-id = ""
