@@ -79,7 +79,7 @@ Add a variable name and select the KV Namespace that you just created. Next to t
 
 ### 3: Set up the redirection code
 
-Now lick the **< / > Edit Code** button at the top right.
+Now click the **< / > Edit Code** button at the top right.
 
 Copy the code below into the editor.
 
