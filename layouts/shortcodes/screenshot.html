@@ -1,0 +1,3 @@
+<p>
+    <img class="screenshot" src="{{ .Get "image" }}" {{ with .Get "alt" }} alt="{{ . }}" {{ end }} {{ with .Get "width" }} style="width:{{ . }};" {{ end }} loading="lazy"></img>
+</p>
