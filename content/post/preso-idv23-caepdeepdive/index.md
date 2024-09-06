@@ -5,7 +5,6 @@ slug: preso-idv23-caepdeepdive
 draft: false
 date: 2023-06-01T12:00:00.000Z
 readingTime: false
-license: false
 toc: false
 # image: 
 categories:

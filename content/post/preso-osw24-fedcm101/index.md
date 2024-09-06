@@ -5,7 +5,6 @@ slug: preso-osw24-fedcm101
 draft: false
 date: 2024-04-11T12:00:00.000Z
 readingTime: false
-license: false
 toc: false
 image: preso-osw24-fedcm101.jpg
 categories:

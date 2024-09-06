@@ -5,7 +5,6 @@ slug: preso-authn23-passkeys101
 draft: false
 date: 2023-10-16T12:00:00.000Z
 readingTime: false
-license: false
 toc: false
 image: preso-authn23-passkeys101.jpg
 categories:
