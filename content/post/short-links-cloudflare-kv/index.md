@@ -1,13 +1,12 @@
 ---
 title: Creating a short link service using Cloudflare Workers KV
-description: A guide on creating a basic short link / redirect service for free using Cloudflare Workers KV
+description: A quick guide on creating a basic short link / redirect service for free using Cloudflare Workers KV
 slug: short-links-cloudflare-kv
 draft: false
 date: 2024-09-06T01:20:10.466Z
 readingTime: true
-license: false
 toc: false
-# image: 
+image: post-preview.png
 categories:
     - How To
 tags:
