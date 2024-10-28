@@ -2,7 +2,7 @@
 baseurl = "https://blog.timcappalli.me"
 languageCode = "en-us"
 paginate = 5
-title = "Tim's {Hot} Takes"
+title = "Timbits"
 copyright= "Tim Cappalli"
 
 # Theme i18n support
