@@ -69,13 +69,17 @@ Give the namespace a name, and click **Add**.
 
 Now navigate back to the Worker (_Workers & Pages_ > _Overview_ > _{Worker Name}_ ).
 
-On the _Settings_ tab, go to _Variables_, scroll down to _KV Namespace Bindings_, and click **Add binding**.
+On the _Settings_ tab, go to _Bindings_, and click **+ Add**.
 
 {{<screenshot image="cfaka-6-variablesmenu.png" alt="A screenshot of the Cloudflare dashboard showing the Settings menu for the worker with a left menu with Variables selected and a section showing KV Namespace Bindings and a Add binding button">}}
 
-Add a variable name and select the KV Namespace that you just created. Next to the **Deploy** button, click the downwards arrow, and click the **Save** menu item, then the **Save** button.
+In the slideout menu, click **KV namespace**.
 
-{{<screenshot image="cfaka-7-mapsave.png" alt="A screenshot of the Cloudflare dashboard showing the KV Namespace Bindings configuration with an input field for Variable name, with the text redirects, and a dropdown field named KV Namespace with aka-redirect selected. There is a Cancel button and a Deplot button with an arrow which is selected, and the Save option is selected from the menu">}}
+{{<screenshot image="cfaka-6a-slide-out.png" width="40%" alt="A screenshot of the Cloudflare dashboard slideout menu showing a header called Add a resource binding and an option called KV Namespace highlighted">}}
+
+Add a variable name (ex: `redirects`) and select the KV namespace that you just created. Next to the **Deploy** button, click the downwards arrow, and click the **Save version** menu item.
+
+{{<screenshot image="cfaka-7-mapsave.png" width="40%" alt="A screenshot of the Cloudflare dashboard showing the KV Namespace Bindings configuration with an input field for Variable name, with the text redirects, and a dropdown field named KV Namespace with aka-redirect selected. There is a Cancel button and a Deplot button with an arrow which is selected, and the Save option is selected from the menu">}}
 
 ### 3: Set up the redirection code
 
@@ -132,11 +136,15 @@ Hit enter, and you should be redirected to the destination you defined!
 
 Lastly, you'll want to set use your own domain for the Worker.
 
-In the Worker, go to _Settings_ > _Triggers_ and click the **Add Custom Domain** button.
+In the Worker, go to _Settings_ > _Domains & Routes_ and click **+ Add**.
 
-Add the domain, verify the DNS record looks OK, then click **Add Custom Domain**.
+{{<screenshot image="cfaka-11a-domain.png" alt="A screenshot of the Cloudflare dashboard showing the settings horizontal tab, and the vertical Domains & Routes menu item with a button showing + Add">}}
 
-{{<screenshot image="cfaka-11-domain.png" alt="A screenshot of the Cloudflare dashboard showing the Add Custom Domain section with an input field named Domain with the value aka.timcappalli.me and a table previewing the DNS entry, a Cancel button and a Add Custom Domain button">}}
+In the slideout menu, click **Custom domain**, enter your domain, and click **Add domain**.
+
+{{<screenshot image="cfaka-11b-domain.png" width="40%" alt="A screenshot of the Cloudflare dashboard showing the settings horizontal tab, and the vertical Domains & Routes menu item with a button showing + Add">}}
+
+If you're not using Cloudflare DNS, add the provided DNS record to your name server.
 
 Wait a few minutes and then it should be live!
 
