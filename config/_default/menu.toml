@@ -35,6 +35,15 @@ weight = 30
 icon = "brand-github"
 
 [[social]]
+identifier = "bluesky"
+name = "Bluesky"
+url = "https://bsky.app/profile/timcappalli.me"
+weight = 35
+
+[social.params]
+icon = "brand-bluesky"
+
+[[social]]
 identifier = "mastodon"
 name = "Mastodon"
 url = "https://infosec.exchange/@timcappalli"
