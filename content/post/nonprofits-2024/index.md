@@ -66,8 +66,6 @@ _*“A developed country is not a place where the poor have cars. It's where the
 - **More info**: [transitmatters.org](https://transitmatters.org/)
 - **Donate**: [transitmatters.org/donate](https://transitmatters.org/donate)
 
-https://transitmatters.org/donate
-
 ## [WBUR](https://www.wbur.org/) (Boston's NPR)
 
 > WBUR is Boston’s NPR. A public media leader committed to exceptional journalism on-air, online, on-demand and on stage. Our mission is to produce high-quality journalism and enriching experiences that foster understanding, connection and community for an expanding circle of people. Our vision is to become a daily habit for every person in Boston and beyond who seeks to engage with the most consequential issues of our times.
