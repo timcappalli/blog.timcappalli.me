@@ -26,8 +26,6 @@ keywords:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-As 2024 draws to a close, I'm grateful for the many organizations working tirelessly to make the world a better place. Here are a few nonprofits that have captured my heart and inspired me to give back in 2024.
-
 ## [Digital Identity Advancement Foundation](https://digitalidadvancement.org/)
 
 > The Foundation’s goal is to foster global opportunities for people to study and explore digital identity. The Foundation helps address a critical problem in digital identity today: a global lack of diverse talent and knowhow. As a charitable organization, it seeks to grow the practice of digital identity through the issuance of scholarships and grants.
@@ -43,8 +41,8 @@ Vittorio Bertocci was a very close friend of mine and he cared deeply about gett
 
 The next four years are shaping up to be a very challenging time for many people, especially LGBTQ+ young people. Acceptance from at least one adult can decrease the risk of LGBTQ+ youth attempting suicide by 40%.
 
-- **More info**: [digitalidadvancement.org](digitalidadvancement.org)
-- **Donate**: [digitalidadvancement.org/donate](https://digitalidadvancement.org/donate/)
+- **More info**: [thetrevorproject.org](https://www.thetrevorproject.org/)
+- **Donate**: [give.thetrevorproject.org](https://give.thetrevorproject.org/campaign/645413/donate)
 
 ## [Signal Foundation](https://signalfoundation.org/) ([Signal App](https://signal.org/))
 
