@@ -51,12 +51,3 @@ weight = 40
 
 [social.params]
 icon = "brand-mastodon"
-
-[[social]]
-identifier = "threads"
-name = "Threads"
-url = "https://threads.net/@timcappalli"
-weight = 50
-
-[social.params]
-icon = "brand-threads"
