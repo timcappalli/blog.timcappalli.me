@@ -14,15 +14,6 @@ tags:
     - Federation
     - Web Platform
     - OAuth Security Workshop
-keywords: 
-    - federation
-    - digital identity
-    - web platform api
-    - osw
-    - oauth security workshop
-    - fedcm
-    - federated credential management
-    - third party cookies
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

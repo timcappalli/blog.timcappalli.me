@@ -16,15 +16,6 @@ tags:
     - Verifiable Credentials
     - Web Platform
     - Digital Credentials
-keywords: 
-    - verifiable credentials
-    - mdoc
-    - mdl 
-    - 18013
-    - digital credentials api
-    - android
-    - wicg
-    - sd-jwt
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

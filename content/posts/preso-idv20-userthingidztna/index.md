@@ -12,14 +12,6 @@ categories:
 tags:
     - Network Authentication
     - Identiverse
-keywords: 
-    - network authentication
-    - eap
-    - radius 
-    - dpp
-    - device provisioning protocol
-    - teap
-    - tunneled eap
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

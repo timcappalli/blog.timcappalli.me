@@ -13,13 +13,6 @@ tags:
     - Shared Signals
     - CAEP
     - Identiverse
-keywords: 
-    - shared signals
-    - continous authorization
-    - caep
-    - ssf
-    - risc
-    - openid
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

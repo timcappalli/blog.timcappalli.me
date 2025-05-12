@@ -12,11 +12,6 @@ tags:
     - Utility
     - Web Service
     - Cloudflare
-keywords: 
-    - cloudflare workers
-    - cloudflare kv
-    - short link 
-    - bit.ly
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

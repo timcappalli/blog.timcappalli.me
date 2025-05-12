@@ -13,17 +13,6 @@ categories:
 tags:
     - Charity
     - Non-Profit
-keywords: 
-    - trevor project
-    - signal
-    - pbs
-    - npr
-    - gbh
-    - lgbtq
-    - encrypted messaging
-    - transit
-    - mbta
-    - subway
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

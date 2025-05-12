@@ -15,18 +15,6 @@ tags:
     - FIDO
     - Web Platform
     - Authenticate
-keywords: 
-    - passkeys
-    - passkey
-    - webauthn
-    - fido
-    - fido2
-    - strong authentication
-    - passwordless
-    - phishing resistance
-    - phishing resistant
-    - authenticate
-    - authenticate conference
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 

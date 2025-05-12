@@ -16,11 +16,6 @@ tags:
     - Web Platform
     - Digital Credentials
     - Real World Identity
-keywords: 
-    - verifiable credentials
-    - mdoc
-    - mdl 
-    - digital credentials api
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
