@@ -1,2 +1,6 @@
+[hugoVersion]
+  extended = false
+  min = "0.87.0"
+
 [[imports]]
-path = "github.com/CaiJimmy/hugo-theme-stack/v3"
+path = "github.com/nunocoracao/blowfish/v2"

@@ -1,0 +1,31 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Timbits"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "January 2, 2006"
+  #logo = "img/closed_lock_with_key_small.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Tim Cappalli"
+  email = "timcappalli@cloudauth.dev"
+  image = "img/headshot-bw-2024.jpg"
+  imageQuality = 96
+  links = [
+    { user = "https://timcappalli.me" },
+    { linkedin = "https://linkedin.com/in/timcappalli" },
+    { bluesky = "https://bsky.app/profile/timcappalli.me" },
+    { mastodon = "https://infosec.exchange/@timcappalli" },
+    { github = "https://github.com/timcappalli" },
+    { camera = "https://photos.timcappalli.me" },
+    { instagram = "https://instagram.com/timcappalli.jpg" },
+    { keybase = "https://keybase.io/timcappalli" }
+  ]
