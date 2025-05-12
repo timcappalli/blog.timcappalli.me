@@ -1,20 +1,62 @@
 # Change baseurl before deploy
 baseurl = "https://blog.timcappalli.me"
 languageCode = "en-us"
-title = "Timbits"
-copyright= "Tim Cappalli"
-
-pagination.pagerSize = 5
-
-# Theme i18n support
-# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
 defaultContentLanguage = "en"
 
-# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
-# This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage = false
+#title = "Timbits"
+#copyright= "Tim Cappalli"
 
-# Change it to your Disqus shortname before using
-#disqusShortname = "hugo-theme-stack"
+# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
+summaryLength = 0
+
+buildDrafts = false
+buildFuture = false
+
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
+
+[sitemap]
+  changefreq = 'always'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 0
+  toLower = false
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+    [[related.indices]]
+      applyFilter = false
+      name = 'fragmentrefs'
+      type = 'fragments'
+      weight = 10

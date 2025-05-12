@@ -1,0 +1,11 @@
+{
+    "name": "Tim Cappalli",
+    "image" : "img/avatar.jpg",
+    "social": [
+        { "email": "mailto:timcappalli@cloudauth.dev" },
+        { "linkedin": "https://linkedin.com/in/timcappalli" },
+        { "github": "https://github.com/timcappalli" },
+        { "instagram": "https://instagram.com/timcappalli.jpg" },
+        { "goodreads": "http://goodreads.com/nunocoracao" }
+    ]
+}
