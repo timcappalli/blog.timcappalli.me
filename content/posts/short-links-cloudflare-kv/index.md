@@ -19,7 +19,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 Sometimes it can be helpful to have short, stable links for web resources. The commercial "bit.ly" service made these popular many years ago.
 
-I use these short links often in my presentations to add reference links using the " tcslides.link/{shortname} " namespace. I also use them when I know content will be moving in the future.
+I use these short links often in my presentations to add reference links using the `tcslides.link/{shortname}` namespace. I also use them when I know content will be moving in the future.
 
 This guide outlines a quick method for establishing a free, easy-to-configure, and easy-to-maintain short link redirect service utilizing Cloudflare Workers and KV. The Worker is used to process the incoming request and provide a response. KV is used to store the short code to destination URL mapping as key-value pairs.
 
@@ -122,7 +122,7 @@ Now you can test! Go back to your Workers main page, and right click on the **Vi
 
 <img class="thumbnailshadow" src="cfaka-10-test.png" alt="A screenshot of the Cloudflare dashboard showing a link with the text Visit, and the browser right click menu with Open Link Address highlighted"/>
 
-Open a new tab, paste this link, and add the short name that you just added to KV, to the end of the URL. 
+Open a new tab, paste this link, and add the short name that you just added to KV, to the end of the URL.
 
 Hit enter, and you should be redirected to the destination you defined!
 
