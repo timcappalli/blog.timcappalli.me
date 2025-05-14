@@ -39,15 +39,15 @@ This guide assumes:
 
 Navigate to "Workers & Pages", and click **Create**.
 
-{{<screenshot image="cfaka-1-workeroverview.png" alt="A screenshot of the Cloudflare dashboard showing the Workers & Pages overview screen">}}
+<img class="thumbnailshadow" src="cfaka-1-workeroverview.png" alt="A screenshot of the Cloudflare dashboard showing the Workers & Pages overview screen"/>
 
 On the "Workers" tab, click **Create Worker**.
 
-{{<screenshot image="cfaka-2-createapp.png" alt="A screenshot of the Cloudflare dashboard showing an empty Create an application screen">}}
+<img class="thumbnailshadow" src="cfaka-2-createapp.png" alt="A screenshot of the Cloudflare dashboard showing an empty Create an application screen"/>
 
 Give the worker a friendly name and click **Deploy**.
 
-{{<screenshot image="cfaka-3-deployscript.png" alt="A screenshot of the Cloudflare dashboard showing the confirmation screen prior to deployment of a worker">}}
+<img class="thumbnailshadow" src="cfaka-3-deployscript.png" alt="A screenshot of the Cloudflare dashboard showing the confirmation screen prior to deployment of a worker"/>
 
 ### 2: Set Up KV
 
@@ -55,25 +55,25 @@ Now it's time to set up KV.
 
 In the main menu on the left, navigate to _Workers & Pages_ > _KV_, and click **Create a namespace**.
 
-{{<screenshot image="cfaka-4-newkv.png" alt="A screenshot of the Cloudflare dashboard showing the Workers & Pages KV screen with a Create a namespace button">}}
+<img class="thumbnailshadow" src="cfaka-4-newkv.png" alt="A screenshot of the Cloudflare dashboard showing the Workers & Pages KV screen with a Create a namespace button"/>
 
 Give the namespace a name, and click **Add**.
 
-{{<screenshot image="cfaka-5-createkv.png" alt="A screenshot of the Cloudflare dashboard showing the Create a namespace section, with a text field for the namespace name, a Cancel button and a Add button">}}
+<img class="thumbnailshadow" src="cfaka-5-createkv.png" alt="A screenshot of the Cloudflare dashboard showing the Create a namespace section, with a text field for the namespace name, a Cancel button and a Add button"/>
 
 Now navigate back to the Worker (_Workers & Pages_ > _Overview_ > _{Worker Name}_ ).
 
 On the _Settings_ tab, go to _Bindings_, and click **+ Add**.
 
-{{<screenshot image="cfaka-6-variablesmenu.png" alt="A screenshot of the Cloudflare dashboard showing the Settings menu for the worker with a left menu with Variables selected and a section showing KV Namespace Bindings and a Add binding button">}}
+<img class="thumbnailshadow" src="cfaka-6-variablesmenu.png" alt="A screenshot of the Cloudflare dashboard showing the Settings menu for the worker with a left menu with Variables selected and a section showing KV Namespace Bindings and a Add binding button"/>
 
 In the slideout menu, click **KV namespace**.
 
-{{<screenshot image="cfaka-6a-slide-out.png" width="40%" alt="A screenshot of the Cloudflare dashboard slideout menu showing a header called Add a resource binding and an option called KV Namespace highlighted">}}
+<img class="thumbnailshadow" src="cfaka-6a-slide-out.png" width="50%" alt="A screenshot of the Cloudflare dashboard slideout menu showing a header called Add a resource binding and an option called KV Namespace highlighted"/>
 
 Add a variable name (ex: `redirects`) and select the KV namespace that you just created. Next to the **Deploy** button, click the downwards arrow, and click the **Save version** menu item.
 
-{{<screenshot image="cfaka-7-mapsave.png" width="40%" alt="A screenshot of the Cloudflare dashboard showing the KV Namespace Bindings configuration with an input field for Variable name, with the text redirects, and a dropdown field named KV Namespace with aka-redirect selected. There is a Cancel button and a Deplot button with an arrow which is selected, and the Save option is selected from the menu">}}
+<img class="thumbnailshadow" src="cfaka-7-mapsave.png" width="50%" alt="A screenshot of the Cloudflare dashboard showing the KV Namespace Bindings configuration with an input field for Variable name, with the text redirects, and a dropdown field named KV Namespace with aka-redirect selected. There is a Cancel button and a Deplot button with an arrow which is selected, and the Save option is selected from the menu"/>
 
 ### 3: Set up the redirection code
 
@@ -106,7 +106,7 @@ Replace both instance of `https://blog.timcappalli.me` with the website that you
 
 Click **Deploy** at the top right, then **Save and deploy** in the dialog.
 
-{{<screenshot image="cfaka-8-deploycode.png" alt="A screenshot of the Cloudflare dashboard showing an instance version, the text latest, and a Deploy button">}}
+<img class="thumbnailshadow" src="cfaka-8-deploycode.png" alt="A screenshot of the Cloudflare dashboard showing an instance version, the text latest, and a Deploy button"/>
 
 ### 4: Add entries
 
@@ -114,13 +114,13 @@ To add entries to KV, from the main menu on the left, navigate to _Workers & Pag
 
 Add the short name as "Key" and the destination URL as "Value", then click **Add Entry**.
 
-{{<screenshot image="cfaka-9-kventry.png" alt="A screenshot of the Cloudflare dashboard showing the KV entry screen with an input field named Key with the value thispost and another input field named Value with the value https://blog.timcappalli.me/p/short-links-cloudflare-kv">}}
+<img class="thumbnailshadow" src="cfaka-9-kventry.png" alt="A screenshot of the Cloudflare dashboard showing the KV entry screen with an input field named Key with the value thispost and another input field named Value with the value https://blog.timcappalli.me/p/short-links-cloudflare-kv"/>
 
 ### 5: Test
 
 Now you can test! Go back to your Workers main page, and right click on the **Visit** link at the top right and copy the link address.
 
-{{<screenshot image="cfaka-10-test.png" width="50%" alt="A screenshot of the Cloudflare dashboard showing a link with the text Visit, and the browser right click menu with Open Link Address highlighted">}}
+<img class="thumbnailshadow" src="cfaka-10-test.png" alt="A screenshot of the Cloudflare dashboard showing a link with the text Visit, and the browser right click menu with Open Link Address highlighted"/>
 
 Open a new tab, paste this link, and add the short name that you just added to KV, to the end of the URL. 
 
@@ -132,11 +132,11 @@ Lastly, you'll want to set use your own domain for the Worker.
 
 In the Worker, go to _Settings_ > _Domains & Routes_ and click **+ Add**.
 
-{{<screenshot image="cfaka-11a-domain.png" alt="A screenshot of the Cloudflare dashboard showing the settings horizontal tab, and the vertical Domains & Routes menu item with a button showing + Add">}}
+<img class="thumbnailshadow" src="cfaka-11a-domain.png" alt="A screenshot of the Cloudflare dashboard showing the settings horizontal tab, and the vertical Domains & Routes menu item with a button showing + Add"/>
 
 In the slideout menu, click **Custom domain**, enter your domain, and click **Add domain**.
 
-{{<screenshot image="cfaka-11b-domain.png" width="40%" alt="A screenshot of the Cloudflare dashboard showing the settings horizontal tab, and the vertical Domains & Routes menu item with a button showing + Add">}}
+<img class="thumbnailshadow" src="cfaka-11b-domain.png" width="50%" alt="A screenshot of the Cloudflare dashboard showing the settings horizontal tab, and the vertical Domains & Routes menu item with a button showing + Add"/>
 
 If you're not using Cloudflare DNS, add the provided DNS record to your name server.
 
