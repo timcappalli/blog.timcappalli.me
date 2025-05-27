@@ -1,7 +1,7 @@
 ---
 title: The Past, Present, and Future of Passkeys @ Internet2 TechEx 2024
 description: Passkeys arrived on the scene in 2022 with yet another promise of freeing us all from passwords. Have we actually made any progress on that goal? We'll dive into the journey to passkeys, how they work, the improvements to security and user experience, (hopefully!) clear up some misconceptions, and offer some reflection on pain points at global scale. We'll also take a look into the future with the intersection of passkeys, federation, and digital identity wallets.
-summary: Passkeys arrived on the scene in 2022 with yet another promise of freeing us all from passwords. Have we actually made any progress on that goal? We'll dive into the journey to passkeys, how they work, the improvements to security and user experience, (hopefully!) clear up some misconceptions, and offer some reflection on pain points at global scale. We'll also take a look into the future with the intersection of passkeys, federation, and digital identity wallets.
+summary: "This talk at Internet2 TechEx 2024 centered on passkeys: their arrival in 2022, how they work, their impact on security and user experience, and what the future holds with federation and digital identity wallets."
 slug: preso-tx24-passkeys
 draft: false
 date: 2024-12-10T18:40:00.000Z
@@ -18,7 +18,15 @@ tags:
 weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
-📍 Boston | [Internet2 Technology Exchange (TechEx)](https://na.eventscloud.com/website/69276/home/)
+## Overview
+
+- **Event Type**: Conference
+- **Event Name**: [Internet2 Technology Exchange 2024 (TechEx)](https://na.eventscloud.com/website/69276/home/)
+- **Location**: Boston
+
+**Abstract**
+
+> Passkeys arrived on the scene in 2022 with yet another promise of freeing us all from passwords. Have we actually made any progress on that goal? We'll dive into the journey to passkeys, how they work, the improvements to security and user experience, (hopefully!) clear up some misconceptions, and offer some reflection on pain points at global scale. We'll also take a look into the future with the intersection of passkeys, federation, and digital identity wallets.
 
 ## Topics
 
