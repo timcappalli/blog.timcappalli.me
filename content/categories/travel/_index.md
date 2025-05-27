@@ -1,10 +1,5 @@
 ---
 title: Travel
-description: Topics about digital identity
+description: Posts and thoughts about travel
 image: "cat-travel-seoul.jpg"
-
-# Badge style
-style:
-    background: "#2a9d8f"
-    color: "#fff"
 ---
