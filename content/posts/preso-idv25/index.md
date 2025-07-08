@@ -33,6 +33,10 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 {{< pdf-preso-preview link="IDV25-PasskeysVDCFriendsFoe.pdf" image="idv25-slideprev.jpg">}}
 
+## Audio Recording
+
+{{< audio src="idv25-audio.mp3" >}}
+
 ### Embedded Videos
 
 Slide 14
