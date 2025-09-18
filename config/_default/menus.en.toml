@@ -33,15 +33,26 @@
   weight = 23
 
 [[main]]
+  name = "Long Form Responses"
+  parent = "Categories"
+  pageRef = "categories/lfr"
+  weight = 24
+
+[[main]]
   name = "Presentations"
   parent = "Categories"
   pageRef = "categories/presentations"
   weight = 24
 
 [[main]]
+  name = "Standards Work"
+  url = "/standards-work"
+  weight = 70
+
+[[main]]
   name = "Photos"
   url = "https://photos.timcappalli.me"
-  weight = 30
+  weight = 90
 
 #[[main]]
 # identifier = "About"
