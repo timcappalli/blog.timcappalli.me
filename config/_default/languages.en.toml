@@ -17,7 +17,7 @@ title = "Timbits"
 [params.author]
   name = "Tim Cappalli"
   email = "timcappalli@cloudauth.dev"
-  image = "img/headshot-bw-2024.jpg"
+  image = "img/headshot-bw-2025.jpg"
   imageQuality = 96
   links = [
     { user = "https://timcappalli.me" },

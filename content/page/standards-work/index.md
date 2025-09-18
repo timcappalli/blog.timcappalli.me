@@ -49,4 +49,4 @@ A protocol for request and presenting verifiable digital credentials.
 
 ## Group Chair
 
-- [OpenID Shared Signals Working Group (2019-2024)](https://openid.net/wg/sharedsignals/)
+- [OpenID Shared Signals Working Group](https://openid.net/wg/sharedsignals/) (2019-2024)
