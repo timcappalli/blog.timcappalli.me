@@ -8,6 +8,9 @@ showTableOfContents: false
 showReadingTime: false
 showWordCount: false
 showDate: false
+showComments: false
+tags:
+- Standards
 ---
 
 ## Author / Editor
@@ -33,6 +36,12 @@ A dictionary of events for the Shared Signals Framework that focus on zero trust
 > This document defines the Continuous Access Evaluation Profile (CAEP) of the Shared Signals Framework [SSF]. It specifies a set of event types conforming to the Shared Signals Framework. These event types are intended to be used between cooperating Transmitters and Receivers such that Transmitters may send continuous updates using which Receivers can attenuate access to shared human or robotic users, devices, sessions and applications.
 
 ## Contributor
+
+### [FIDO Client to Authenticator Protocol (CTAP) 2.2](https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html)
+
+This specification defines the protocol used between a WebAuthn client and a hardware authenticatorf for passkeys, as well as a WebAuthn or Digital Credentials API client and another user device for both passkeys and verifiable digital credentials.
+
+> This specification describes an application layer protocol for communication between a roaming authenticator and another client/platform, as well as bindings of this application protocol to a variety of transport protocols using different physical media. The application layer protocol defines requirements for such transport protocols. Each transport binding defines the details of how such transport layer connections should be set up, in a manner that meets the requirements of the application layer protocol.
 
 ### [OpenID for Verifiable Presentations (OID4VP)](https://openid.net/specs/openid-4-verifiable-presentations-1_0.html)
 
