@@ -35,3 +35,17 @@ weight: 1       # You can add weight to some posts to override the default sorti
 ## Slides
 
 {{< pdf-preso-preview link="Authn25-PasskeysVDCsFriendsFoes.pdf" image="authn25-slideprev.jpg">}}
+
+### Embedded Videos
+
+Slide 16
+
+{{< video src="slide14" >}}
+
+Slide 22
+
+{{< video src="slide20" width="250px" >}}
+
+Slide 24
+
+{{< video src="slide22" >}}
