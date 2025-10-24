@@ -30,7 +30,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 ## Recording
 
-> Coming Soon
+{{< youtubeLite id="Vm-lfN7iEm8" label="Passkeys and Verifiable Digital Credentials: Friends or Foes? @ Authenticate 2025 recording" >}}
 
 ## Slides
 
