@@ -23,6 +23,8 @@ The Web Platform API that powers passkeys.
 
 ### [W3C Digital Credentials API](https://www.w3.org/TR/digital-credentials/)
 
+The Web Platform API for verification and issuance of verifiable digital credentials.
+
 > This document specifies an API to enable user agents to mediate presentation and issuance of digital credentials such as a driver's license, government-issued identification card, and/or other types of digital credential. The API builds on Credential Management Level 1 as a means by which to request or issue a digital credential from a user agent or underlying platform.
 
 ### [OpenID Shared Signals Framework Specification 1.0](https://openid.net/specs/openid-sharedsignals-framework-1_0.html)
@@ -39,7 +41,7 @@ A dictionary of events for the Shared Signals Framework that focus on zero trust
 
 ### [FIDO Client to Authenticator Protocol (CTAP) 2.2](https://fidoalliance.org/specs/fido-v2.2-ps-20250714/fido-client-to-authenticator-protocol-v2.2-ps-20250714.html)
 
-This specification defines the protocol used between a WebAuthn client and a hardware authenticatorf for passkeys, as well as a WebAuthn or Digital Credentials API client and another user device for both passkeys and verifiable digital credentials.
+This specification defines the protocol used between a WebAuthn client and a hardware authenticator for passkeys, as well as a WebAuthn or Digital Credentials API client and another user device for both passkeys and verifiable digital credentials.
 
 > This specification describes an application layer protocol for communication between a roaming authenticator and another client/platform, as well as bindings of this application protocol to a variety of transport protocols using different physical media. The application layer protocol defines requirements for such transport protocols. Each transport binding defines the details of how such transport layer connections should be set up, in a manner that meets the requirements of the application layer protocol.
 
@@ -49,4 +51,5 @@ A protocol for request and presenting verifiable digital credentials.
 
 ## Group Chair
 
+- FIDO Alliance Digital Credentials Working Group (2025-)
 - [OpenID Shared Signals Working Group](https://openid.net/wg/sharedsignals/) (2019-2024)
