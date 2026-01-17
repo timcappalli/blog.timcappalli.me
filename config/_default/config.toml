@@ -2,6 +2,7 @@
 baseurl = "https://blog.timcappalli.me"
 languageCode = "en-us"
 defaultContentLanguage = "en"
+timeout = "300s"
 
 #title = "Timbits"
 #copyright= "Tim Cappalli"
