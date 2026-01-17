@@ -44,7 +44,7 @@ If there are no lights on and you try to interact with the virtual "All Lights P
 
 The first step is to create a light group using a Helper.
 
-Go to _Settings_ > _Devices & services_ > _Helpers_, and click **Create Helper**.
+Go to *Settings* > *Devices & services* > *Helpers*, and click **Create Helper**.
 
 Select **Group** then **Light group**.
 
@@ -57,7 +57,7 @@ I called mine "All Real Lights" (which resulted in an entity ID of `light.all_re
 
 The next step is to create a template sensor, which will hold a list of entity IDs of the lights which are currently turned on.
 
-Go to _Settings_ > _Devices & services_ > _Helpers_, and click **Create helper**.
+Go to *Settings* > *Devices & services* > *Helpers*, and click **Create helper**.
 
 Select **Template** then **Sensor**.
 
@@ -81,7 +81,7 @@ If you have any lights currently on, they'll be shown in the list.
 Next, we need to create an automation that syncs the changes in light state from the active lights sensor (list), to a "Legacy Group".
 The `groups.set` action, which is required to dynamically update the list of entities, cannot be used on modern Helper groups (such as the light group we created earlier).
 
-Create a new Automation by going to _Settings_ > _Automations & scene_ and click **Create automation**.
+Create a new Automation by going to *Settings* > *Automations & scene* and click **Create automation**.
 
 Click **Create new automation**, then click the vertical ellipsis at the top right and then **Edit in YAML**.
 Paste in the YAML below.
