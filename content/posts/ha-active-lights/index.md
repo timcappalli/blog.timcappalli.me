@@ -195,6 +195,6 @@ I also created a visibility rule to only show the horizontal stack when the virt
 
 Here's a demo of it all working in my set up.
 
-![Demo](ha-demo.gif)
+![Demo](/post-img/ha-active-lights-demo.gif)
 
 Good luck and I hope this saves you some time!
