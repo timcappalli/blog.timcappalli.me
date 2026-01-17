@@ -7,3 +7,5 @@ automations
 HACS
 hainternal
 findall
+cappalli
+goodreads

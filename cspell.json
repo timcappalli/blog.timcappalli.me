@@ -1,0 +1,22 @@
+{
+    "version": "0.2",
+    "ignorePaths": [
+        "/.cspell/*"
+    ],
+    "dictionaryDefinitions": [
+        {
+            "name": "dictionary",
+            "path": "./.cspell/dictionary.txt",
+            "addWords": true
+        }
+    ],
+    "dictionaries": [
+        "dictionary"
+    ],
+    "words": [],
+    "ignoreWords": [],
+    "import": [],
+    "ignoreRegExpList": [
+        "([-a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*))",
+    ]
+}
