@@ -170,8 +170,11 @@
         var oid_likes = "likes_{{ $path }}"
       </script>
       {{ $jsPage := resources.Get "js/page.js" }}
-      {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint "sha512" }}
-      <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"></script>
+      {{ if $jsPage }}
+        {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint "sha512" }}
+        <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"></script>
+      {{ end }}
+
       {{ end }}
 
   </section>
