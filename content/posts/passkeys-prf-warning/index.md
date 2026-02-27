@@ -20,12 +20,13 @@ weight: 1
 Why am I writing this today?
 Because I am deeply concerned about users losing their most sacred data.
 
-Over the past year or two, I've seen many organizations, large and small, implement passkeys (which is great, thank you!) and use the PRF (Pseudo-Random Function extension to derive keys to protect user data, typically to support end-to-end encryption.
+Over the past year or two, I've seen many organizations, large and small, implement passkeys (which is great, thank you!) and use the PRF (Pseudo-Random Function) extension to derive keys to protect user data, typically to support end-to-end encryption (including backups).
 I've also seen a number of influential folks and organizations promote the use of PRF for encrypting data.
 
 The primary use cases I’ve seen implemented or promoted so far include:
 
 - encrypting message backups (including images and videos)
+- end-to-end encryption
 - encrypting documents and other files
 - encrypting and unlocking crypto wallets
 - credential manager unlocking
