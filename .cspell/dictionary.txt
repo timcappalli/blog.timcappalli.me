@@ -10,3 +10,5 @@ findall
 cappalli
 goodreads
 eudi
+hmac
+ctap
