@@ -2,4 +2,4 @@ module github.com/timcappalli/blog.timcappalli.me
 
 go 1.17
 
-require github.com/nunocoracao/blowfish/v2 v2.105.0 // indirect
+require github.com/nunocoracao/blowfish/v2 v2.106.0 // indirect
