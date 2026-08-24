@@ -29,7 +29,9 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "fixed-gradient" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "floating"
+  list.featureImageHover = true
+  header.mobileMenuStyle = "fullscreen"
 
 [footer]
   showMenu = true
