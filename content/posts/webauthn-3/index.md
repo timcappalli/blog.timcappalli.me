@@ -22,7 +22,7 @@ weight: 1       # You can add weight to some posts to override the default sorti
 
 ## Overview
 
-The Web Authentication API (WebAuthn) Level 3 specification is officially a [W3C Recommendation](https://www.w3.org/policies/process/#RecsW3C).
+The [Web Authentication API (WebAuthn) Level 3 specification](https://www.w3.org/TR/2026/REC-webauthn-3-20260825/) is officially a [W3C Recommendation](https://www.w3.org/policies/process/#RecsW3C).
 In W3C terms, this means the specification is stable, has received wide review, and is ready for implementation by browsers and platforms.
 In practice, Level 3 features are already implemented by most components of the ecosystem.
 
