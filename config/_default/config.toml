@@ -1,6 +1,6 @@
 # Change baseurl before deploy
 baseurl = "https://blog.timcappalli.me"
-languageCode = "en-us"
+locale = "en-us"
 defaultContentLanguage = "en"
 timeout = "300s"
 
