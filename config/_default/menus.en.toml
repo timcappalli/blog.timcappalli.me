@@ -1,7 +1,7 @@
 # -- Main Menu --
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
+#
 # The simplest menu configuration is to provide:
 #   name = The name to be displayed for this menu link
 #   pageRef = The identifier of the page or section to link to
@@ -43,6 +43,18 @@
   parent = "Categories"
   pageRef = "categories/presentations"
   weight = 24
+
+[[main]]
+  name = "Random Thoughts"
+  parent = "Categories"
+  pageRef = "categories/random-thoughts"
+  weight = 30
+
+[[main]]
+  name = "Standards"
+  parent = "Categories"
+  pageRef = "categories/standards"
+  weight = 40
 
 [[main]]
   name = "Standards Work"
